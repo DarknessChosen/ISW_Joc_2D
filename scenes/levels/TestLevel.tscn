@@ -18,7 +18,7 @@ shape = SubResource("RectangleShape2D_xjwk6")
 
 [node name="GroundVisual" type="Polygon2D" parent="Ground" unique_id=946175824]
 color = Color(0.26988637, 0.546875, 0.546875, 1)
-polygon = PackedVector2Array(-300, -15, 300, -15, 300, 15, -301, 15)
+polygon = PackedVector2Array(-300, -15, 300, -15, 300, 15, -300, 15)
 
 [node name="Player1" parent="." unique_id=1601139009 instance=ExtResource("1_86d4f")]
 position = Vector2(388, 299)
@@ -28,6 +28,18 @@ position = Vector2(688, 299)
 move_left_action = &"p2_left"
 move_right_action = &"p2_right"
 jump_action = &"p2_jump"
+player_type = "water"
 
-[node name="Hazard" parent="." unique_id=323791246 instance=ExtResource("3_3wv3p")]
-position = Vector2(543, 475)
+[node name="Hazard fire" parent="." unique_id=323791246 instance=ExtResource("3_3wv3p")]
+position = Vector2(225, 456)
+
+[node name="Hazard water" parent="." unique_id=1094818628 instance=ExtResource("3_3wv3p")]
+position = Vector2(227, 513)
+hazard_type = "water"
+
+[node name="Hazard fire2" parent="." unique_id=182326067 instance=ExtResource("3_3wv3p")]
+position = Vector2(855, 512)
+
+[node name="Hazard water2" parent="." unique_id=1084573200 instance=ExtResource("3_3wv3p")]
+position = Vector2(854, 451)
+hazard_type = "water"

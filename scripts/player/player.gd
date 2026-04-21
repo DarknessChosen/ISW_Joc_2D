@@ -7,8 +7,15 @@ extends CharacterBody2D
 @export var speed: float = 250.0
 @export var jump_velocity: float = -450.0
 @export var death_y: float = 1200.0
+@export_enum("fire", "water") var player_type: String = "fire"
 
 var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity")
+
+func _ready() -> void:
+	if player_type == "fire":
+		$Sprite2D.modulate = Color(1.0, 0.4, 0.4)
+	elif player_type == "water":
+		$Sprite2D.modulate = Color(0.4, 0.6, 1.0)
 
 func _physics_process(delta: float) -> void:
 	if global_position.y > death_y:
