@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://cykgq1pdaxdu6"]
+
+[ext_resource type="Script" uid="uid://ib3os3dct712" path="res://scripts/systems/pause_menu.gd" id="1_7ida2"]
+[ext_resource type="PackedScene" uid="uid://c70m728uq2kbm" path="res://scenes/ui/SettingsPanel.tscn" id="1_vb6pq"]
+
+[node name="PauseMenu" type="CanvasLayer" unique_id=1763295697]
+visible = false
+script = ExtResource("1_7ida2")
+
+[node name="Dim" type="ColorRect" parent="." unique_id=405933989]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.20784314, 0.20784314, 0.20784314, 0)
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1215307384]
+offset_right = 376.0
+offset_bottom = 229.0
+
+[node name="PanelContainer" type="PanelContainer" parent="CenterContainer" unique_id=983998673]
+clip_contents = true
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CenterContainer/PanelContainer" unique_id=1307702012]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/PanelContainer/MarginContainer" unique_id=657154556]
+layout_mode = 2
+alignment = 1
+
+[node name="PauseTitle" type="Label" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer" unique_id=1404885582]
+layout_mode = 2
+text = "Paused"
+horizontal_alignment = 1
+
+[node name="ResumeButton" type="Button" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer" unique_id=1051787178]
+layout_mode = 2
+text = "Resume"
+
+[node name="RestartButton" type="Button" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer" unique_id=1725639429]
+layout_mode = 2
+text = "Restart"
+
+[node name="SettingsButton" type="Button" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer" unique_id=1499467051]
+layout_mode = 2
+text = "Settings"
+
+[node name="MainMenuButton" type="Button" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer" unique_id=1486253377]
+layout_mode = 2
+text = "Exit to Main Menu"
+
+[node name="SettingsPanel" parent="." unique_id=1321865017 instance=ExtResource("1_vb6pq")]
+visible = false

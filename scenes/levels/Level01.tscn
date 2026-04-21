@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dmtuug83vukfp" path="res://scenes/objects/Button.tscn" id="4_dthn1"]
 [ext_resource type="PackedScene" uid="uid://4ei64bmp7al" path="res://scenes/objects/Door.tscn" id="5_dxxhj"]
 [ext_resource type="PackedScene" uid="uid://c1bw6xnhnowju" path="res://scenes/objects/ExitGate.tscn" id="6_dr6w0"]
+[ext_resource type="PackedScene" uid="uid://cykgq1pdaxdu6" path="res://scenes/ui/PauseMenu.tscn" id="7_uq7hp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xjwk6"]
 size = Vector2(1563, 30)
@@ -61,3 +62,5 @@ position = Vector2(1174, 702)
 [node name="WaterExit" parent="." unique_id=1716155191 instance=ExtResource("6_dr6w0")]
 position = Vector2(1359, 702)
 gate_type = "water"
+
+[node name="PauseMenu" parent="." unique_id=664073468 instance=ExtResource("7_uq7hp")]

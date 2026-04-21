@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://dsl128bnsoxti"]
+
+[ext_resource type="Script" uid="uid://bfrbo2f724q2k" path="res://scripts/systems/main_menu.gd" id="1_6jbdy"]
+[ext_resource type="PackedScene" uid="uid://c70m728uq2kbm" path="res://scenes/ui/SettingsPanel.tscn" id="1_vjtqc"]
+
+[node name="MainMenu" type="Control" unique_id=1564814107]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_6jbdy")
+
+[node name="Background" type="ColorRect" parent="." unique_id=751278504]
+layout_mode = 0
+offset_right = 412.0
+offset_bottom = 222.0
+mouse_filter = 2
+color = Color(0.011203093, 0.012617188, 0.01141428, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1911361104]
+z_index = 1
+layout_mode = 0
+offset_top = -1.0
+offset_right = 412.0
+offset_bottom = 221.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=441071421]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1107819562]
+layout_mode = 2
+text = "Copiii Copaci MC"
+
+[node name="StartButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=470845602]
+layout_mode = 2
+text = "Start Game"
+
+[node name="LevelSelectButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=27083947]
+layout_mode = 2
+text = "Level Select"
+
+[node name="SettingsButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=728540988]
+layout_mode = 2
+text = "Settings"
+
+[node name="ExitButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1255664468]
+layout_mode = 2
+text = "Exit Game"
+
+[node name="LevelSelectPanel" type="PanelContainer" parent="." unique_id=1701773860]
+visible = false
+custom_minimum_size = Vector2(360, 240)
+layout_mode = 0
+offset_right = 413.0
+offset_bottom = 222.0
+
+[node name="MarginContainer" type="MarginContainer" parent="LevelSelectPanel" unique_id=754938884]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="LevelSelectPanel/MarginContainer" unique_id=791080666]
+layout_mode = 2
+
+[node name="LevelSelectTitle" type="Label" parent="LevelSelectPanel/MarginContainer/VBoxContainer" unique_id=129064727]
+layout_mode = 2
+text = "Level Select"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="LevelSelectPanel/MarginContainer/VBoxContainer" unique_id=1071995630]
+custom_minimum_size = Vector2(260, 140)
+layout_mode = 2
+
+[node name="LevelList" type="VBoxContainer" parent="LevelSelectPanel/MarginContainer/VBoxContainer/ScrollContainer" unique_id=844308737]
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="LevelSelectPanel/MarginContainer/VBoxContainer" unique_id=1650750508]
+layout_mode = 2
+text = "Back"
+
+[node name="SettingsPanel" parent="." unique_id=1321865017 instance=ExtResource("1_vjtqc")]
+visible = false
+layout_mode = 0
