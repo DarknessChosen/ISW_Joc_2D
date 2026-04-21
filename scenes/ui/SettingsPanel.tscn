@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://c70m728uq2kbm"]
+
+[ext_resource type="Script" uid="uid://cobdxk1oahm81" path="res://scripts/systems/settings_panel.gd" id="1_741xb"]
+
+[node name="SettingsPanel" type="PanelContainer" unique_id=1505518040]
+custom_minimum_size = Vector2(340, 180)
+script = ExtResource("1_741xb")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=822105631]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1639684939]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1350181140]
+layout_mode = 2
+text = "Settings"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=176505002]
+layout_mode = 2
+alignment = 1
+
+[node name="MasterLabel" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=1978441085]
+layout_mode = 2
+text = "Master Volume"
+horizontal_alignment = 1
+
+[node name="MasterSlider" type="HSlider" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=65956702]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+value = 100.0
+
+[node name="CloseButton" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1601157481]
+layout_mode = 2
+text = "Close"
