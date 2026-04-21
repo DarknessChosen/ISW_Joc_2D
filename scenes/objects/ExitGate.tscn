@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c1bw6xnhnowju"]
+
+[ext_resource type="Script" uid="uid://dsocye5qv3kpq" path="res://scripts/systems/exit_gate.gd" id="1_5f1cx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rfwpx"]
+size = Vector2(56, 100)
+
+[node name="ExitGate" type="Area2D" unique_id=968088409]
+script = ExtResource("1_5f1cx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=894462420]
+shape = SubResource("RectangleShape2D_rfwpx")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=967082135]
+polygon = PackedVector2Array(-28, -50, 28, -50, 28, 50, -28, 50)
