@@ -4,13 +4,16 @@
 [ext_resource type="Script" uid="uid://ccy34adcdbirm" path="res://scripts/player/player.gd" id="1_vodpx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vodpx"]
-size = Vector2(120, 120)
+size = Vector2(56, 54)
 
 [node name="Player" type="CharacterBody2D" unique_id=1601139009 groups=["players"]]
 script = ExtResource("1_vodpx")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=308127162]
+position = Vector2(4.7683716e-07, -0.99999994)
+scale = Vector2(0.46484378, 0.45312506)
 texture = ExtResource("1_46ybd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1584689089]
+position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_vodpx")

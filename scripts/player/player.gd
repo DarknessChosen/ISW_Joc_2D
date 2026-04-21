@@ -4,8 +4,8 @@ extends CharacterBody2D
 @export var move_right_action: StringName = &"p1_right"
 @export var jump_action: StringName = &"p1_jump"
 
-@export var speed: float = 250.0
-@export var jump_velocity: float = -450.0
+@export var speed: float = 300.0
+@export var jump_velocity: float = -400.0
 @export var death_y: float = 1200.0
 @export_enum("fire", "water") var player_type: String = "fire"
 
