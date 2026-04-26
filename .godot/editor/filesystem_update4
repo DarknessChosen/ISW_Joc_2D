@@ -1,1 +1,5 @@
 res://scenes/levels/Level03.tscn
+res://scripts/systems/level_3.gd
+res://scenes/levels/Level01.tscn
+res://scripts/player/player.gd
+res://scenes/players/Player.tscn

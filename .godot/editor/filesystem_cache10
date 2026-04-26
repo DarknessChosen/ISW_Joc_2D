@@ -1,10 +1,26 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777213047
+::res://::1777229253
 icon.svg::CompressedTexture2D::4550410486760108573::1777212620::1777212620::1::::<><><>0<>0<>e972e432d477909f3f5252b0bd2bf87d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1777229343
+::res://assets/audio/::1777229343
+::res://assets/sprites/::1777231152
+::res://assets/sprites/ninja_frog/::1777231279
+Fall (32x32).png::CompressedTexture2D::7996716361547241611::1777231279::1777231279::1::::<><><>0<>0<>cdd951b8bb1032374af3e15d578615eb<>res://.godot/imported/Fall (32x32).png-e8db49b5cb8580214acab7f636809c5f.ctex::
+Idle (32x32).png::CompressedTexture2D::2616734745283250789::1777231279::1777231279::1::::<><><>0<>0<>b2959f26a8dc95eae6092571b777507f<>res://.godot/imported/Idle (32x32).png-4c4c6260fe7a22b82fcf822b0eadce92.ctex::
+Jump (32x32).png::CompressedTexture2D::785702780767677667::1777231279::1777231279::1::::<><><>0<>0<>18703abc8328edd96fa8e1fad4140586<>res://.godot/imported/Jump (32x32).png-ebedd2138e4fc098d2d806716fbcc108.ctex::
+Run (32x32).png::CompressedTexture2D::3933123821920905345::1777231279::1777231279::1::::<><><>0<>0<>62886924560eedb95124f3c073c08c8a<>res://.godot/imported/Run (32x32).png-22ecf5e9c58f2366fbdff04a70741d2f.ctex::
+::res://assets/sprites/pink_man/::1777231242
+Fall (32x32).png::CompressedTexture2D::4054531156781536295::1777231241::1777231242::1::::<><><>0<>0<>7b4fa27c89d90db90570c623e9e8858b<>res://.godot/imported/Fall (32x32).png-99b0c8619de7e56bc08b611f6e0cf996.ctex::
+Idle (32x32).png::CompressedTexture2D::3460881605886442267::1777231241::1777231242::1::::<><><>0<>0<>b093b6f10290692a880517f10f94c690<>res://.godot/imported/Idle (32x32).png-4543e25cc7f61cc680f00f9221e3ca01.ctex::
+Jump (32x32).png::CompressedTexture2D::6979173382953136332::1777231241::1777231242::1::::<><><>0<>0<>08294081049687a0192172275af72ff2<>res://.godot/imported/Jump (32x32).png-92e541b2756a1b0c70038f6cf14c4f49.ctex::
+Run (32x32).png::CompressedTexture2D::3598443549081470311::1777231241::1777231242::1::::<><><>0<>0<>253e4bd2a24ec697bb0a406881afc415<>res://.godot/imported/Run (32x32).png-287ea604d563d73fda5503c30668657c.ctex::
+::res://assets/tilesets/::1777229328
+::res://assets/ui/::1777229335
 ::res://scenes/::1777212620
-::res://scenes/levels/::1777212620
+::res://scenes/levels/::1777215392
 Level01.tscn::PackedScene::6781380658192063803::1777212620::0::1::::<><><>0<>0<><>::uid://svo6dp15u7iv::::res://scripts/systems/test_level.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn<>uid://dgqw06s6rtw81::::res://scenes/objects/Hazard.tscn<>uid://dmtuug83vukfp::::res://scenes/objects/Button.tscn<>uid://4ei64bmp7al::::res://scenes/objects/Door.tscn<>uid://c1bw6xnhnowju::::res://scenes/objects/ExitGate.tscn<>uid://cykgq1pdaxdu6::::res://scenes/ui/PauseMenu.tscn
 Level02.tscn::PackedScene::301389547165011415::1777212620::0::1::::<><><>0<>0<><>::uid://svo6dp15u7iv::::res://scripts/systems/test_level.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn<>uid://cykgq1pdaxdu6::::res://scenes/ui/PauseMenu.tscn
+Level03.tscn::PackedScene::1892237582177101878::1777215392::0::1::::<><><>0<>0<><>::uid://bx0kltrdtqcww::::res://scripts/systems/level_3.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn
 ::res://scenes/objects/::1777212620
 Button.tscn::PackedScene::8042001775215954065::1777212620::0::1::::<><><>0<>0<><>::uid://bbodc4xs8ulh2::::res://scripts/systems/button.gd
 Door.tscn::PackedScene::60125782275319075::1777212620::0::1::::<><><>0<>0<><>::uid://pu7lpy0dgaq4::::res://scripts/systems/door.gd
@@ -19,7 +35,7 @@ SettingsPanel.tscn::PackedScene::7071281027013049326::1777212620::0::1::::<><><>
 ::res://scripts/::1777212620
 ::res://scripts/player/::1777212620
 player.gd::GDScript::4964515989309746726::1777212620::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scripts/systems/::1777212620
+::res://scripts/systems/::1777215189
 button.gd::GDScript::2485698098024471013::1777212620::0::1::::<>Area2D<><>0<>0<><>::
 door.gd::GDScript::1096083623218851133::1777212620::0::1::::<>StaticBody2D<><>0<>0<><>::
 exit_gate.gd::GDScript::8451727075353648870::1777212620::0::1::::<>Area2D<><>0<>0<><>::
@@ -27,5 +43,6 @@ game_manager.gd::GDScript::8278386652468775778::1777212620::0::1::::<>Node<><>0<
 hazard.gd::GDScript::174853484974594939::1777212620::0::1::::<>Area2D<><>0<>0<><>::
 main_menu.gd::GDScript::2772546469155364024::1777212620::0::1::::<>Control<><>0<>0<><>::
 pause_menu.gd::GDScript::565301192585038247::1777212620::0::1::::<>CanvasLayer<><>0<>0<><>::
+level_3.gd::GDScript::4053001369247615194::1777215189::0::1::::<>Node2D<><>0<>0<><>::
 settings_panel.gd::GDScript::5757773346345629604::1777212620::0::1::::<>PanelContainer<><>0<>0<><>::
 test_level.gd::GDScript::1307656697793971621::1777212620::0::1::::<>Node2D<><>0<>0<><>::
