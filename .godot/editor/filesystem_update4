@@ -3,3 +3,10 @@ res://scripts/systems/level_3.gd
 res://scenes/levels/Level01.tscn
 res://scripts/player/player.gd
 res://scenes/players/Player.tscn
+res://scenes/objects/Hazard.tscn
+res://scripts/systems/hazard.gd
+res://scenes/objects/Button.tscn
+res://scripts/systems/button.gd
+res://scenes/objects/ExitGate.tscn
+res://scripts/systems/exit_gate.gd
+res://scenes/objects/Door.tscn

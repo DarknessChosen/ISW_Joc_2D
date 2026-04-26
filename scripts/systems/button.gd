@@ -42,6 +42,6 @@ func _on_body_exited(body: Node) -> void:
 
 func _update_button_visual() -> void:
 	if pressed_bodies > 0:
-		visual.color = Color(0.2, 0.9, 0.2)
+		visual.color = Color(0.984, 0.902, 0.2, 1.0)
 	else:
-		visual.color = Color(0.9, 0.5, 0.1)
+		visual.color = Color(1.0, 0.0, 0.118, 1.0)

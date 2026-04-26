@@ -7,9 +7,9 @@ func _ready() -> void:
 
 	var polygon := $Polygon2D
 	if hazard_type == "fire":
-		polygon.color = Color(1.0, 0.1, 0.1)
+		polygon.color = Color(1.0, 0.132, 0.842, 1.0)
 	elif hazard_type == "water":
-		polygon.color = Color(0.1, 0.4, 1.0)
+		polygon.color = Color(0.131, 0.519, 0.101, 1.0)
 
 func _on_body_entered(body: Node) -> void:
 	if not body.is_in_group("players"):
