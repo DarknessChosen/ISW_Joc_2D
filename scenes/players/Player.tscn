@@ -417,9 +417,11 @@ position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_vodpx")
 
 [node name="SpriteFire" type="AnimatedSprite2D" parent="." unique_id=2042726868]
+scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_nppcc")
 animation = &"fall"
 
 [node name="SpriteWater" type="AnimatedSprite2D" parent="." unique_id=285756938]
+scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_oho8d")
 animation = &"fall"
