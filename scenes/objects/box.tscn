@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cqndaf6x8scnu"]
+
+[ext_resource type="Texture2D" uid="uid://cidxbsqg401kt" path="res://assets/sprites/Items/Boxes/Idle.png" id="1_2vq68"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2vq68"]
+size = Vector2(39, 38)
+
+[node name="Box" type="RigidBody2D" unique_id=613240593]
+lock_rotation = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=413206602]
+position = Vector2(5.5, 4)
+scale = Vector2(2, 1.914)
+texture = ExtResource("1_2vq68")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1368057243]
+position = Vector2(5.5, 4)
+shape = SubResource("RectangleShape2D_2vq68")

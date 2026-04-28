@@ -11,3 +11,5 @@ res://scenes/objects/ExitGate.tscn
 res://scripts/systems/exit_gate.gd
 res://scenes/objects/Door.tscn
 res://scenes/ui/SettingsPanel.tscn
+res://scenes/ui/MainMenu.tscn
+res://scenes/objects/box.tscn

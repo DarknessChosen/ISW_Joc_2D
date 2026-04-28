@@ -3,14 +3,14 @@
 [ext_resource type="Script" uid="uid://cqx2t6lybth0" path="res://scripts/systems/hazard.gd" id="1_br8i3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5vkve"]
-size = Vector2(149, 30)
+size = Vector2(149, 33)
 
 [node name="Hazard" type="Area2D" unique_id=323791246]
 position = Vector2(75, 0)
 script = ExtResource("1_br8i3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041161310]
-position = Vector2(-75.5, 0)
+position = Vector2(-75.5, -1.5)
 shape = SubResource("RectangleShape2D_5vkve")
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=1408668319]

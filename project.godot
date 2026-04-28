@@ -19,10 +19,6 @@ config/icon="res://icon.svg"
 
 GameManager="*uid://dp7d23nl4nxbm"
 
-[display]
-
-window/size/viewport_width=1920
-
 [input]
 
 p1_left={

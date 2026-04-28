@@ -2,51 +2,66 @@
 
 [ext_resource type="Script" uid="uid://bfrbo2f724q2k" path="res://scripts/systems/main_menu.gd" id="1_6jbdy"]
 [ext_resource type="PackedScene" uid="uid://c70m728uq2kbm" path="res://scenes/ui/SettingsPanel.tscn" id="1_vjtqc"]
+[ext_resource type="Texture2D" uid="uid://cafhxnlmyiabt" path="res://assets/backgrounds/blue-sky-background-in-sunny-bright-day-vector.jpg" id="2_iwbf0"]
 
 [node name="MainMenu" type="Control" unique_id=1564814107]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_6jbdy")
 
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1929472175]
+layout_mode = 0
+offset_right = 2056.0
+offset_bottom = 1066.0
+texture = ExtResource("2_iwbf0")
+
 [node name="Background" type="ColorRect" parent="." unique_id=751278504]
 layout_mode = 0
-offset_right = 412.0
-offset_bottom = 222.0
+offset_left = 676.0
+offset_top = 302.0
+offset_right = 1337.0
+offset_bottom = 680.0
 mouse_filter = 2
-color = Color(0.011203093, 0.012617188, 0.01141428, 1)
+color = Color(0.011764706, 0.62352943, 0.93333334, 0)
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=1911361104]
 z_index = 1
 layout_mode = 0
-offset_top = -1.0
-offset_right = 412.0
-offset_bottom = 221.0
+offset_left = 715.0
+offset_top = 317.0
+offset_right = 1189.0
+offset_bottom = 647.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=441071421]
 layout_mode = 2
 
 [node name="TitleLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1107819562]
 layout_mode = 2
-text = "Copiii Copaci MC"
+theme_override_font_sizes/font_size = 39
+text = "TWOFOLD"
+horizontal_alignment = 1
 
 [node name="StartButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=470845602]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Start Game"
 
 [node name="LevelSelectButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=27083947]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Level Select"
 
 [node name="SettingsButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=728540988]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Settings"
 
 [node name="ExitButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1255664468]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Exit Game"
 
 [node name="LevelSelectPanel" type="PanelContainer" parent="." unique_id=1701773860]
-visible = false
 custom_minimum_size = Vector2(360, 240)
 layout_mode = 0
 offset_right = 413.0
@@ -75,5 +90,4 @@ layout_mode = 2
 text = "Back"
 
 [node name="SettingsPanel" parent="." unique_id=1321865017 instance=ExtResource("1_vjtqc")]
-visible = false
 layout_mode = 0

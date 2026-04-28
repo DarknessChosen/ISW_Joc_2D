@@ -90,6 +90,11 @@ func _physics_process(delta: float) -> void:
 			sprite.play("idle")
 
 	move_and_slide()
+# Cod pentru a împinge obiectele (cum este cutia)
+	for i in get_slide_collision_count():
+		var collision = get_slide_collision(i)
+		if collision.get_collider() is RigidBody2D:
+			collision.get_collider().apply_central_impulse(collision.get_normal() * -50.0)
 
 # Funcții pentru sistemul de Exit Gates (păstrate intacte)
 func exit_level() -> void:

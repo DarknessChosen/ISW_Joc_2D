@@ -1,11 +1,14 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777239565
+::res://::1777410607
 icon.svg::CompressedTexture2D::4550410486760108573::1777212620::1777212620::1::::<><><>0<>0<>e972e432d477909f3f5252b0bd2bf87d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1777405327
 ::res://assets/audio/::1777229343
-::res://assets/backgrounds/::1777405423
+::res://assets/backgrounds/::1777405424
 blue-sky-background-in-sunny-bright-day-vector.jpg::CompressedTexture2D::4783630048739690933::1777405423::1777405424::1::::<><><>0<>0<>9f986853b4ccaaf17560bb97b2a32111<>res://.godot/imported/blue-sky-background-in-sunny-bright-day-vector.jpg-4ded8da528c7d6f4cce11b1a4a4ed5ba.ctex::
-::res://assets/sprites/::1777231152
+::res://assets/sprites/::1777411762
+::res://assets/sprites/Items/::1777411774
+::res://assets/sprites/Items/Boxes/::1777411808
+Idle.png::CompressedTexture2D::5341944496829726631::1777411808::1777411808::1::::<><><>0<>0<>ca0793035ddd47fb0f7eee3e4988db7b<>res://.godot/imported/Idle.png-7c389ac7367f9793181fd160644cdacb.ctex::
 ::res://assets/sprites/ninja_frog/::1777231279
 Fall (32x32).png::CompressedTexture2D::7996716361547241611::1777231279::1777231279::1::::<><><>0<>0<>cdd951b8bb1032374af3e15d578615eb<>res://.godot/imported/Fall (32x32).png-e8db49b5cb8580214acab7f636809c5f.ctex::
 Idle (32x32).png::CompressedTexture2D::2616734745283250789::1777231279::1777231279::1::::<><><>0<>0<>b2959f26a8dc95eae6092571b777507f<>res://.godot/imported/Idle (32x32).png-4c4c6260fe7a22b82fcf822b0eadce92.ctex::
@@ -20,21 +23,21 @@ Run (32x32).png::CompressedTexture2D::3598443549081470311::1777231241::177723124
 Terrain (16x16).png::CompressedTexture2D::1806111048899812656::1777235097::1777235097::1::::<><><>0<>0<>0e967a97338532b24a83e806f8aaf2b3<>res://.godot/imported/Terrain (16x16).png-845197199cb5398de394619bcc955627.ctex::
 ::res://assets/ui/::1777229335
 ::res://scenes/::1777212620
-::res://scenes/levels/::1777239299
-Level01.tscn::PackedScene::6781380658192063803::1777239299::0::1::::<><><>0<>0<><>::uid://svo6dp15u7iv::::res://scripts/systems/test_level.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn<>uid://dgqw06s6rtw81::::res://scenes/objects/Hazard.tscn<>uid://dmtuug83vukfp::::res://scenes/objects/Button.tscn<>uid://4ei64bmp7al::::res://scenes/objects/Door.tscn<>uid://c1bw6xnhnowju::::res://scenes/objects/ExitGate.tscn<>uid://cykgq1pdaxdu6::::res://scenes/ui/PauseMenu.tscn<>uid://0y5ndf684bem::::res://assets/tilesets/Terrain (16x16).png
+::res://scenes/levels/::1777411168
+Level01.tscn::PackedScene::6781380658192063803::1777411168::0::1::::<><><>0<>0<><>::uid://svo6dp15u7iv::::res://scripts/systems/test_level.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn<>uid://dgqw06s6rtw81::::res://scenes/objects/Hazard.tscn<>uid://dmtuug83vukfp::::res://scenes/objects/Button.tscn<>uid://4ei64bmp7al::::res://scenes/objects/Door.tscn<>uid://c1bw6xnhnowju::::res://scenes/objects/ExitGate.tscn<>uid://cykgq1pdaxdu6::::res://scenes/ui/PauseMenu.tscn<>uid://0y5ndf684bem::::res://assets/tilesets/Terrain (16x16).png<>uid://cafhxnlmyiabt::::res://assets/backgrounds/blue-sky-background-in-sunny-bright-day-vector.jpg
 Level02.tscn::PackedScene::301389547165011415::1777212620::0::1::::<><><>0<>0<><>::uid://svo6dp15u7iv::::res://scripts/systems/test_level.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn<>uid://cykgq1pdaxdu6::::res://scenes/ui/PauseMenu.tscn
 Level03.tscn::PackedScene::1892237582177101878::1777215392::0::1::::<><><>0<>0<><>::uid://bx0kltrdtqcww::::res://scripts/systems/level_3.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn
-::res://scenes/objects/::1777239169
+::res://scenes/objects/::1777406681
 Button.tscn::PackedScene::8042001775215954065::1777239169::0::1::::<><><>0<>0<><>::uid://bbodc4xs8ulh2::::res://scripts/systems/button.gd
 Door.tscn::PackedScene::60125782275319075::1777238007::0::1::::<><><>0<>0<><>::uid://pu7lpy0dgaq4::::res://scripts/systems/door.gd
 ExitGate.tscn::PackedScene::6601208041636524926::1777237869::0::1::::<><><>0<>0<><>::uid://dsocye5qv3kpq::::res://scripts/systems/exit_gate.gd
-Hazard.tscn::PackedScene::7614807233123261660::1777236620::0::1::::<><><>0<>0<><>::uid://cqx2t6lybth0::::res://scripts/systems/hazard.gd
+Hazard.tscn::PackedScene::7614807233123261660::1777406681::0::1::::<><><>0<>0<><>::uid://cqx2t6lybth0::::res://scripts/systems/hazard.gd
 ::res://scenes/players/::1777239959
 Player.tscn::PackedScene::3297183801479673146::1777239959::0::1::::<><><>0<>0<><>::uid://ccy34adcdbirm::::res://scripts/player/player.gd<>uid://bx1bshmheo4qd::::res://assets/sprites/pink_man/Fall (32x32).png<>uid://bpkqhj4c5fub8::::res://assets/sprites/pink_man/Idle (32x32).png<>uid://c6o073vucw3ga::::res://assets/sprites/pink_man/Jump (32x32).png<>uid://brjd3sqjbfqy6::::res://assets/sprites/pink_man/Run (32x32).png<>uid://dl6w0rfq26dih::::res://assets/sprites/ninja_frog/Fall (32x32).png<>uid://bdjtiehq6hlcn::::res://assets/sprites/ninja_frog/Idle (32x32).png<>uid://lgun675vd1j8::::res://assets/sprites/ninja_frog/Jump (32x32).png<>uid://bwbh8e1aw20kr::::res://assets/sprites/ninja_frog/Run (32x32).png
-::res://scenes/ui/::1777212620
-MainMenu.tscn::PackedScene::8446997985536555098::1777212620::0::1::::<><><>0<>0<><>::uid://bfrbo2f724q2k::::res://scripts/systems/main_menu.gd<>uid://c70m728uq2kbm::::res://scenes/ui/SettingsPanel.tscn
+::res://scenes/ui/::1777411028
+MainMenu.tscn::PackedScene::8446997985536555098::1777411028::0::1::::<><><>0<>0<><>::uid://bfrbo2f724q2k::::res://scripts/systems/main_menu.gd<>uid://c70m728uq2kbm::::res://scenes/ui/SettingsPanel.tscn<>uid://cafhxnlmyiabt::::res://assets/backgrounds/blue-sky-background-in-sunny-bright-day-vector.jpg
 PauseMenu.tscn::PackedScene::6478411655815038635::1777212620::0::1::::<><><>0<>0<><>::uid://ib3os3dct712::::res://scripts/systems/pause_menu.gd<>uid://c70m728uq2kbm::::res://scenes/ui/SettingsPanel.tscn
-SettingsPanel.tscn::PackedScene::7071281027013049326::1777212620::0::1::::<><><>0<>0<><>::uid://cobdxk1oahm81::::res://scripts/systems/settings_panel.gd
+SettingsPanel.tscn::PackedScene::7071281027013049326::1777406303::0::1::::<><><>0<>0<><>::uid://cobdxk1oahm81::::res://scripts/systems/settings_panel.gd
 ::res://scripts/::1777212620
 ::res://scripts/player/::1777234571
 player.gd::GDScript::4964515989309746726::1777234571::0::1::::<>CharacterBody2D<><>0<>0<><>::
