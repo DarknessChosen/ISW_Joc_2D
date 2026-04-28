@@ -10,8 +10,9 @@
 [ext_resource type="Texture2D" uid="uid://lgun675vd1j8" path="res://assets/sprites/ninja_frog/Jump (32x32).png" id="8_6bi8e"]
 [ext_resource type="Texture2D" uid="uid://bwbh8e1aw20kr" path="res://assets/sprites/ninja_frog/Run (32x32).png" id="9_gyri4"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_vodpx"]
-size = Vector2(56, 54)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_shwb6"]
+radius = 17.0
+height = 70.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_shwb6"]
 atlas = ExtResource("2_smcha")
@@ -414,7 +415,7 @@ script = ExtResource("1_vodpx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1584689089]
 position = Vector2(0, -1)
-shape = SubResource("RectangleShape2D_vodpx")
+shape = SubResource("CapsuleShape2D_shwb6")
 
 [node name="SpriteFire" type="AnimatedSprite2D" parent="." unique_id=2042726868]
 scale = Vector2(2, 2)

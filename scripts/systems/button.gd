@@ -43,5 +43,9 @@ func _on_body_exited(body: Node) -> void:
 func _update_button_visual() -> void:
 	if pressed_bodies > 0:
 		visual.color = Color(0.984, 0.902, 0.2, 1.0)
+		# AM ADĂUGAT AICI: Mută desenul în jos cu 4 pixeli pentru iluzia de apăsare
+		visual.position.y = 4 
 	else:
 		visual.color = Color(1.0, 0.0, 0.118, 1.0)
+		# AM ADĂUGAT AICI: Ridică desenul înapoi la poziția zero când jucătorul pleacă
+		visual.position.y = 0

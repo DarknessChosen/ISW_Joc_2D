@@ -10,3 +10,4 @@ res://scripts/systems/button.gd
 res://scenes/objects/ExitGate.tscn
 res://scripts/systems/exit_gate.gd
 res://scenes/objects/Door.tscn
+res://scenes/ui/SettingsPanel.tscn
