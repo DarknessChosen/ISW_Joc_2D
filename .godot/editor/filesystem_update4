@@ -24,7 +24,3 @@ res://scenes/objects/barrier.tscn
 res://scenes/objects/barrier.gd
 res://scenes/objects/FloorButton.tscn
 res://scenes/objects/floor_button.gd
-res://scenes/objects/Hazard.tscn
-res://scripts/player/player.gd
-res://scripts/systems/button.gd
-res://scripts/systems/hazard.gd

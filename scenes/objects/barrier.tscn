@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://b4bxt1hl5hr3j"]
+
+[ext_resource type="Script" uid="uid://bt3jhe3ns3yko" path="res://scripts/systems/barrier.gd" id="1_hwpwa"]
+
+[sub_resource type="Gradient" id="Gradient_wk2ci"]
+offsets = PackedFloat32Array(0, 0.0037593986, 0.981203)
+colors = PackedColorArray(0, 0, 0, 1, 1, 0.89325434, 0.37020588, 1, 0.7330827, 0.7330827, 0.7330827, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_hwpwa"]
+gradient = SubResource("Gradient_wk2ci")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wk2ci"]
+size = Vector2(132.875, 20.25)
+
+[node name="Barrier" type="StaticBody2D" unique_id=1553725490]
+script = ExtResource("1_hwpwa")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=656572460]
+position = Vector2(-330.17606, -51)
+scale = Vector2(2.068001, 0.31250003)
+texture = SubResource("GradientTexture2D_hwpwa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1064070254]
+position = Vector2(-330.4375, -50)
+shape = SubResource("RectangleShape2D_wk2ci")

@@ -74,9 +74,9 @@ func _build_level_list() -> void:
 		var label := "Level %02d" % (i + 1)
 
 		if completed:
-			label += "  [DONE]"
+			label += "  "
 		elif not unlocked:
-			label += "  [LOCKED]"
+			label += "  "
 
 		button.text = label
 		button.disabled = not unlocked

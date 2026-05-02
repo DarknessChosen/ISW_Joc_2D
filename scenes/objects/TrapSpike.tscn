@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://c4egal4vvu5g"]
+
+[ext_resource type="Script" uid="uid://dan1op15e2g1w" path="res://scripts/systems/hazard_acid.gd" id="1_7yyw4"]
+[ext_resource type="Texture2D" uid="uid://i2b43273h1ql" path="res://assets/tilesets/Idle.png" id="1_b704x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7yyw4"]
+size = Vector2(23, 9)
+
+[node name="TrapSpike" type="Area2D" unique_id=755523518]
+script = ExtResource("1_7yyw4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2115580243]
+scale = Vector2(2, 2)
+texture = ExtResource("1_b704x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=626537665]
+position = Vector2(-1.5, 6.5)
+shape = SubResource("RectangleShape2D_7yyw4")

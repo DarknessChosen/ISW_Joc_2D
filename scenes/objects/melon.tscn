@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://l7qc7p1wt4yt"]
+
+[ext_resource type="Script" uid="uid://bgvpnopvhvwib" path="res://scripts/systems/melon.gd" id="1_i005v"]
+[ext_resource type="Texture2D" uid="uid://bnsr6hcib24r6" path="res://assets/tilesets/Melon.png" id="2_0gx1f"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1ut45"]
+
+[node name="Melon" type="Area2D" unique_id=950049035]
+script = ExtResource("1_i005v")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=987433170]
+position = Vector2(7.000001, 0)
+scale = Vector2(1.5, 1.565)
+texture = ExtResource("2_0gx1f")
+hframes = 17
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=549871069]
+position = Vector2(7, -1)
+shape = SubResource("CircleShape2D_1ut45")

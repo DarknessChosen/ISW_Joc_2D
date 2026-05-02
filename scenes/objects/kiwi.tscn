@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bryrsi5nubu52"]
+
+[ext_resource type="Texture2D" uid="uid://c1qsjt4pogpj8" path="res://assets/tilesets/Kiwi.png" id="1_4g1lh"]
+[ext_resource type="Script" uid="uid://bw3phbv0duyub" path="res://scripts/systems/kiwi.gd" id="1_j0cwb"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j0cwb"]
+
+[node name="Kiwi" type="Area2D" unique_id=1720705897]
+script = ExtResource("1_j0cwb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1763706696]
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_4g1lh")
+hframes = 17
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1862770898]
+shape = SubResource("CircleShape2D_j0cwb")

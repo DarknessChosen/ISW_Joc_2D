@@ -13,5 +13,5 @@ position = Vector2(0, -9)
 shape = SubResource("RectangleShape2D_ddkdq")
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=866017074]
-color = Color(0.44654697, 0.32744333, 0.57421875, 1)
+color = Color(0.83137256, 0.7575909, 0.6064958, 1)
 polygon = PackedVector2Array(-5, -79, 5, -79, 5, 61, -5, 61)
