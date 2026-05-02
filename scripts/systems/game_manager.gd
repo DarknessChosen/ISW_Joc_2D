@@ -5,7 +5,9 @@ const MAIN_MENU_PATH := "res://scenes/ui/MainMenu.tscn"
 
 const LEVEL_ORDER: Array[String] = [
 	"res://scenes/levels/Level01.tscn",
-	"res://scenes/levels/Level02.tscn"
+	"res://scenes/levels/Level02.tscn",
+	"res://scenes/levels/Level03.tscn",
+	"res://scenes/levels/Level04.tscn"
 ]
 
 var completed_levels: Array[String] = []

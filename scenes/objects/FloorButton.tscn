@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bg3paui5bdirc"]
+
+[ext_resource type="Script" uid="uid://hxymfays7ffl" path="res://scripts/systems/floor_button.gd" id="1_sphwc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cfja5"]
+size = Vector2(41, 6)
+
+[node name="FloorButton" type="Area2D" unique_id=1944536522]
+script = ExtResource("1_sphwc")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1848092236]
+offset_left = 2.0
+offset_top = 1.0
+offset_right = 42.0
+offset_bottom = 7.0
+color = Color(0.53333336, 0.039257307, 0.09990292, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=792801580]
+position = Vector2(22.5, 4)
+shape = SubResource("RectangleShape2D_cfja5")

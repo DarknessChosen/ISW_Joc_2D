@@ -175,7 +175,7 @@ sources/0 = SubResource("TileSetAtlasSource_dthn1")
 
 [node name="Level02" type="Node2D" unique_id=1857940898]
 script = ExtResource("1_fhwgo")
-next_level_path = "uid://ej83veowqqdr"
+next_level_path = "uid://17u42iyaldrq"
 
 [node name="Ground" type="StaticBody2D" parent="." unique_id=866154398]
 position = Vector2(326, 752)

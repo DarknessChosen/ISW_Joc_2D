@@ -1,6 +1,7 @@
 extends Node2D
 
-@export_file("*.tscn") var next_level_path: String = ""
+# Aici am pus calea exactă către Nivelul 3 ca setare din fabrică
+@export_file("*.tscn") var next_level_path: String = "res://scenes/levels/Level03.tscn"
 
 var is_restarting: bool = false
 var is_completing: bool = false
@@ -60,20 +61,9 @@ func check_level_complete() -> void:
 	if fire_gate == null or water_gate == null:
 		return
 
+	# Verificăm dacă ambii jucători sunt în ușile lor
 	if fire_gate.has_method("has_docked_player") and water_gate.has_method("has_docked_player"):
 		if fire_gate.has_docked_player() and water_gate.has_docked_player():
-			is_completing = true
-			GameManager.mark_level_completed(scene_file_path)
-			_disable_players()
-			call_deferred("_go_to_next_level")
-	if is_restarting or is_completing:
-		return
-
-	if fire_gate == null or water_gate == null:
-		return
-
-	if fire_gate.has_method("is_gate_completed") and water_gate.has_method("is_gate_completed"):
-		if fire_gate.is_gate_completed() and water_gate.is_gate_completed():
 			is_completing = true
 			GameManager.mark_level_completed(scene_file_path)
 			_disable_players()

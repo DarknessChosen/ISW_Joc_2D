@@ -90,4 +90,5 @@ layout_mode = 2
 text = "Back"
 
 [node name="SettingsPanel" parent="." unique_id=1321865017 instance=ExtResource("1_vjtqc")]
+visible = false
 layout_mode = 0
