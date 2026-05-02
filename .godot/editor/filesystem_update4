@@ -10,3 +10,7 @@ res://scripts/systems/melon.gd
 res://scenes/objects/kiwi.tscn
 res://scripts/systems/kiwi.gd
 res://scripts/systems/exit_gate.gd
+res://scenes/levels/Level03.tscn
+res://scenes/objects/Portal.tscn
+res://scenes/objects/portal.gd
+res://scenes/players/Player.tscn

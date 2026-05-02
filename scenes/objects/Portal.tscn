@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://d1vy7n075lcjp"]
+
+[ext_resource type="Script" uid="uid://dnuen2if3t76r" path="res://scripts/systems/portal.gd" id="1_th3qj"]
+
+[sub_resource type="Gradient" id="Gradient_p7jd5"]
+offsets = PackedFloat32Array(0, 0.36466166, 0.50751877, 0.7030075, 0.8233083, 0.9887218, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.36466166, 0.36466166, 0.36466166, 1, 0.5254902, 0.5176471, 0.39215687, 0, 0.7255639, 0.7255639, 0.7255639, 1, 0.79607844, 0.79607844, 0.79607844, 0, 0.89411765, 0.89411765, 0.89411765, 0.015686275, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_th3qj"]
+gradient = SubResource("Gradient_p7jd5")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p7jd5"]
+radius = 46.173584
+
+[node name="Portal" type="Area2D" unique_id=586502673]
+script = ExtResource("1_th3qj")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1045858463]
+texture = SubResource("GradientTexture2D_th3qj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=158154431]
+shape = SubResource("CircleShape2D_p7jd5")
+debug_color = Color(0, 0.6, 0.69803923, 0)
