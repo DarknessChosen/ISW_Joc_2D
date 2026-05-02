@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777410607
+::res://::1777713922
 icon.svg::CompressedTexture2D::4550410486760108573::1777212620::1777212620::1::::<><><>0<>0<>e972e432d477909f3f5252b0bd2bf87d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1777405327
 ::res://assets/audio/::1777229343
@@ -23,11 +23,12 @@ Run (32x32).png::CompressedTexture2D::3598443549081470311::1777231241::177723124
 Terrain (16x16).png::CompressedTexture2D::1806111048899812656::1777235097::1777235097::1::::<><><>0<>0<>0e967a97338532b24a83e806f8aaf2b3<>res://.godot/imported/Terrain (16x16).png-845197199cb5398de394619bcc955627.ctex::
 ::res://assets/ui/::1777229335
 ::res://scenes/::1777212620
-::res://scenes/levels/::1777411168
-Level01.tscn::PackedScene::6781380658192063803::1777411168::0::1::::<><><>0<>0<><>::uid://svo6dp15u7iv::::res://scripts/systems/test_level.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn<>uid://dgqw06s6rtw81::::res://scenes/objects/Hazard.tscn<>uid://dmtuug83vukfp::::res://scenes/objects/Button.tscn<>uid://4ei64bmp7al::::res://scenes/objects/Door.tscn<>uid://c1bw6xnhnowju::::res://scenes/objects/ExitGate.tscn<>uid://cykgq1pdaxdu6::::res://scenes/ui/PauseMenu.tscn<>uid://0y5ndf684bem::::res://assets/tilesets/Terrain (16x16).png<>uid://cafhxnlmyiabt::::res://assets/backgrounds/blue-sky-background-in-sunny-bright-day-vector.jpg
+::res://scenes/levels/::1777449934
+Level01.tscn::PackedScene::6781380658192063803::1777449934::0::1::::<><><>0<>0<><>::uid://svo6dp15u7iv::::res://scripts/systems/test_level.gd<>uid://cqndaf6x8scnu::::res://scenes/objects/box.tscn<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn<>uid://dgqw06s6rtw81::::res://scenes/objects/Hazard.tscn<>uid://dmtuug83vukfp::::res://scenes/objects/Button.tscn<>uid://4ei64bmp7al::::res://scenes/objects/Door.tscn<>uid://c1bw6xnhnowju::::res://scenes/objects/ExitGate.tscn<>uid://cykgq1pdaxdu6::::res://scenes/ui/PauseMenu.tscn<>uid://0y5ndf684bem::::res://assets/tilesets/Terrain (16x16).png<>uid://cafhxnlmyiabt::::res://assets/backgrounds/blue-sky-background-in-sunny-bright-day-vector.jpg
 Level02.tscn::PackedScene::301389547165011415::1777212620::0::1::::<><><>0<>0<><>::uid://svo6dp15u7iv::::res://scripts/systems/test_level.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn<>uid://cykgq1pdaxdu6::::res://scenes/ui/PauseMenu.tscn
 Level03.tscn::PackedScene::1892237582177101878::1777215392::0::1::::<><><>0<>0<><>::uid://bx0kltrdtqcww::::res://scripts/systems/level_3.gd<>uid://bm8geuveshwri::::res://scenes/players/Player.tscn
-::res://scenes/objects/::1777406681
+::res://scenes/objects/::1777413856
+box.tscn::PackedScene::5922882238971308438::1777413856::0::1::::<><><>0<>0<><>::uid://cidxbsqg401kt::::res://assets/sprites/Items/Boxes/Idle.png
 Button.tscn::PackedScene::8042001775215954065::1777239169::0::1::::<><><>0<>0<><>::uid://bbodc4xs8ulh2::::res://scripts/systems/button.gd
 Door.tscn::PackedScene::60125782275319075::1777238007::0::1::::<><><>0<>0<><>::uid://pu7lpy0dgaq4::::res://scripts/systems/door.gd
 ExitGate.tscn::PackedScene::6601208041636524926::1777237869::0::1::::<><><>0<>0<><>::uid://dsocye5qv3kpq::::res://scripts/systems/exit_gate.gd
@@ -39,16 +40,16 @@ MainMenu.tscn::PackedScene::8446997985536555098::1777411028::0::1::::<><><>0<>0<
 PauseMenu.tscn::PackedScene::6478411655815038635::1777212620::0::1::::<><><>0<>0<><>::uid://ib3os3dct712::::res://scripts/systems/pause_menu.gd<>uid://c70m728uq2kbm::::res://scenes/ui/SettingsPanel.tscn
 SettingsPanel.tscn::PackedScene::7071281027013049326::1777406303::0::1::::<><><>0<>0<><>::uid://cobdxk1oahm81::::res://scripts/systems/settings_panel.gd
 ::res://scripts/::1777212620
-::res://scripts/player/::1777234571
-player.gd::GDScript::4964515989309746726::1777234571::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/player/::1777412085
+player.gd::GDScript::4964515989309746726::1777412085::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://scripts/systems/::1777239169
 button.gd::GDScript::2485698098024471013::1777239169::0::1::::<>Area2D<><>0<>0<><>::
 door.gd::GDScript::1096083623218851133::1777212620::0::1::::<>StaticBody2D<><>0<>0<><>::
 exit_gate.gd::GDScript::8451727075353648870::1777237869::0::1::::<>Area2D<><>0<>0<><>::
 game_manager.gd::GDScript::8278386652468775778::1777212620::0::1::::<>Node<><>0<>0<><>::
 hazard.gd::GDScript::174853484974594939::1777237217::0::1::::<>Area2D<><>0<>0<><>::
+level_3.gd::GDScript::4053001369247615194::1777215189::0::1::::<>Node2D<><>0<>0<><>::
 main_menu.gd::GDScript::2772546469155364024::1777212620::0::1::::<>Control<><>0<>0<><>::
 pause_menu.gd::GDScript::565301192585038247::1777212620::0::1::::<>CanvasLayer<><>0<>0<><>::
-level_3.gd::GDScript::4053001369247615194::1777215189::0::1::::<>Node2D<><>0<>0<><>::
 settings_panel.gd::GDScript::5757773346345629604::1777212620::0::1::::<>PanelContainer<><>0<>0<><>::
 test_level.gd::GDScript::1307656697793971621::1777212620::0::1::::<>Node2D<><>0<>0<><>::

@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://svo6dp15u7iv" path="res://scripts/systems/test_level.gd" id="1_fhwgo"]
 [ext_resource type="PackedScene" uid="uid://bm8geuveshwri" path="res://scenes/players/Player.tscn" id="2_6qln7"]
 [ext_resource type="PackedScene" uid="uid://cykgq1pdaxdu6" path="res://scenes/ui/PauseMenu.tscn" id="3_n8577"]
+[ext_resource type="Texture2D" uid="uid://cafhxnlmyiabt" path="res://assets/backgrounds/blue-sky-background-in-sunny-bright-day-vector.jpg" id="4_0rmw8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xjwk6"]
 size = Vector2(1563, 30)
@@ -34,3 +35,9 @@ jump_action = &"p2_jump"
 player_type = "water"
 
 [node name="PauseMenu" parent="." unique_id=664073468 instance=ExtResource("3_n8577")]
+
+[node name="BlueSkyBackgroundInSunnyBrightDayVector" type="Sprite2D" parent="." unique_id=1817071250]
+show_behind_parent = true
+position = Vector2(882.5001, 439.5)
+scale = Vector2(1.7916669, 2.5171425)
+texture = ExtResource("4_0rmw8")
