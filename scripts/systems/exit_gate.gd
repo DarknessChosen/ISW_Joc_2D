@@ -83,12 +83,12 @@ func _update_visual() -> void:
 		if has_docked_player():
 			visual.color = Color(1.0, 0.5, 0.3, 0.55)
 		else:
-			visual.color = Color(1.0, 0.108, 0.857, 1.0)
+			visual.color = Color(0.978, 0.475, 0.783, 0.651)
 	else:
 		if has_docked_player():
 			visual.color = Color(0.3, 0.6, 1.0, 0.55)
 		else:
-			visual.color = Color(0.03, 0.666, 0.166, 1.0)
+			visual.color = Color(0.327, 0.631, 0.212, 0.576)
 
 func _update_prompt() -> void:
 	var valid_player := _get_valid_player_inside_area()

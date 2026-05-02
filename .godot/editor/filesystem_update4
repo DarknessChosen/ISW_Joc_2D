@@ -3,3 +3,10 @@ res://scenes/objects/hazard_acid.gd
 res://scenes/levels/Level01.tscn
 res://scenes/objects/Door.tscn
 res://scenes/levels/Level02.tscn
+res://scenes/objects/TrapSpike.tscn
+res://scenes/objects/melon.tscn
+res://scenes/objects/melon.gd
+res://scripts/systems/melon.gd
+res://scenes/objects/kiwi.tscn
+res://scripts/systems/kiwi.gd
+res://scripts/systems/exit_gate.gd
